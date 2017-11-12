@@ -86,7 +86,7 @@
 
 
     'Clear the drop down combo boxes
-    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) 
         cbDropYear.SelectedIndex = -1
         cbDropYear.Text = "Select the Year"
 
@@ -100,6 +100,5 @@
     End Sub
 
     Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
-        Me.Close()
-    End Sub
+        Me.Close()   End Sub
 End Class
